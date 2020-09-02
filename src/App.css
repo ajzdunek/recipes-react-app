@@ -1,6 +1,7 @@
 .App{
   min-height: 100vh;
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
 }
 
 
@@ -27,4 +28,31 @@
   flex-wrap: wrap;
 }
 
+.ingredients-text{
+  width:500px;
+  word-wrap: break-word;
+}
 
+#container {
+  position: relative;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  clear: both;
+}

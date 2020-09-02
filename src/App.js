@@ -1,8 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, Component} from 'react';
 // import logo from './logo.svg';
 import Recipes from './Recipes'
+import NavBar from './components/NavBar'
+// import Footer from './components/Footer'
 
 import './App.css';
+
+
 
 
 const App = () => {
@@ -20,7 +24,7 @@ const App = () => {
 
   // ---------------------------------------
 
-  const [query, setQuery] = useState('chicken')
+  const [query, setQuery] = useState('')
 
   // ---------------------------------------
   
@@ -50,17 +54,24 @@ const App = () => {
    setSearch('');
  }
 
+
+
   return (
+
     
     <div className="App">
+
+    <NavBar />
+
       <form onSubmit={getSearch} className="search-form">
     
-        <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
+        <input className="search-bar" type="text" placeholder="Search Recipes" value={search} onChange={updateSearch}/>
 
           <button className="search-button" type="submit">Search</button>
     
       </form>
-      
+
+
     <div className='recipes'>
 
     {recipes.map(recipe =>(
@@ -83,3 +94,5 @@ const App = () => {
 
 
 export default App;
+
+
