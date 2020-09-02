@@ -61,9 +61,9 @@ const App = () => {
     
       </form>
       
-    {
-      
-      recipes.map(recipe =>(
+    <div className='recipes'>
+
+    {recipes.map(recipe =>(
 
       <Recipes 
 
@@ -75,6 +75,7 @@ const App = () => {
 
     ))}
 
+    </div>
     </div>
   )
 }
