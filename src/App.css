@@ -28,3 +28,6 @@
   word-wrap: break-word;
 }
 
+.recipes{
+    overflow-y: auto;
+}
