@@ -1,5 +1,4 @@
-import React, {useEffect, useState, Component} from 'react';
-// import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import Recipes from './Recipes'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
@@ -72,24 +71,38 @@ const App = () => {
       </form>
 
 
+
+    
     <div className='recipes'>
 
-   
+   <div className="container">
+   <div className="row row-cols-2">
+  
+
     {recipes.map(recipe =>(
+
+
 
       <Recipes 
 
+  
       key={recipe.recipe.label}
       title={recipe.recipe.label} 
       calories={recipe.recipe.calories}
       image={recipe.recipe.image} 
-      ingredients={recipe.recipe.ingredients} />
+      ingredients={recipe.recipe.ingredients} 
+
+      
+      
+      />
 
     ))}
-
-  
+   
+    
+    </div>
     </div>
 
+   </div>
       <Footer/>
 
     </div>
@@ -99,5 +112,4 @@ const App = () => {
 
 
 export default App;
-
 

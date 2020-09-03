@@ -18,7 +18,7 @@ const Recipe = ({title, calories, image, ingredients}) => {
       <Col sm>
 
 
-      <h1>{title}</h1>
+      <h1 className="title">{title}</h1>
 
 
 

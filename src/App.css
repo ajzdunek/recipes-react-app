@@ -22,13 +22,8 @@
   border: none;
 }
 
-.recipes{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
 
-.ingredients-text{
+.ingredients-text, title{
   width:500px;
   word-wrap: break-word;
 }
@@ -42,17 +37,12 @@
   bottom: 0;
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
 
-.footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
   clear: both;
 }
