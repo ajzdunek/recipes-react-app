@@ -12,7 +12,9 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">🍎🍗 Recipe Search 🥩🥑</NavbarBrand>
+        <div class="container">
+        <NavbarBrand href="/">🍎🍗 A to Z Recipe Search 🥩🥑</NavbarBrand>
+        </div>
       </Navbar>
     </div>
   );

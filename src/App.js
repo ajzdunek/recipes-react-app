@@ -2,7 +2,7 @@ import React, {useEffect, useState, Component} from 'react';
 // import logo from './logo.svg';
 import Recipes from './Recipes'
 import NavBar from './components/NavBar'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 import './App.css';
 
@@ -74,6 +74,7 @@ const App = () => {
 
     <div className='recipes'>
 
+   
     {recipes.map(recipe =>(
 
       <Recipes 
@@ -86,7 +87,11 @@ const App = () => {
 
     ))}
 
+  
     </div>
+
+      <Footer/>
+
     </div>
   )
 }
