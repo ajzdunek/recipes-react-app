@@ -11,7 +11,7 @@ const NavBar = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <div class="container">
-        <NavbarBrand href="/">🍎🍗 A to Z Recipe Search 🥩🥑</NavbarBrand>
+        <NavbarBrand href="/"><span role="img" aria-label="apple chicken">🍎🍗</span> A to Z Recipe Search <span role="img" aria-label="steak avocado">🥩🥑</span></NavbarBrand>
         </div>
       </Navbar>
     </div>
