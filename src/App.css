@@ -28,21 +28,3 @@
   word-wrap: break-word;
 }
 
-#container {
-  position: relative;
-}
-
-#copyright {
-  position: absolute;
-  bottom: 0;
-}
-
-
-
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}

@@ -71,13 +71,14 @@ const App = () => {
       </form>
 
 
+  
 
     
     <div className='recipes'>
 
-   <div className="container">
-   <div className="row row-cols-2">
-  
+    <div className="container">
+    <div className="row row-cols-1 row-cols-md-2">
+ 
 
     {recipes.map(recipe =>(
 
@@ -97,12 +98,12 @@ const App = () => {
       />
 
     ))}
-   
-    
-    </div>
-    </div>
 
+    
+    </div>    
    </div>
+   </div>
+
       <Footer/>
 
     </div>
