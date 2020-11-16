@@ -21,7 +21,7 @@ Creating a recipes app using React, reactstrap, Bootstrap ver. 4+ and the Edamam
 
 ## Screenshots
 
-![picture]project-screenshots/pic-one.png)
+![picture](project-screenshots/pic-one.png)
 Enter your recipe or keyword
 
 ![picture](project-screenshots/pic-two.png)
